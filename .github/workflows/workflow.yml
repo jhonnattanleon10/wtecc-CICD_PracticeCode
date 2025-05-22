@@ -16,7 +16,7 @@ jobs:
 
       - name: Install Dependences
         run: |
-          python3 -m pip install --upgrate
+          python -m pip install --upgrate pip
           pip install -r requeriments.txt
 
       - name: Lint with flake8
